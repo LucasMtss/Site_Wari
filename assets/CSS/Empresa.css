@@ -259,10 +259,6 @@ footer a{
   color: #9657d1;
 }
 
-.textoFooter{
-  font-size: 10px;
-}
-
 @media (max-width: 1600px){
 
   .facebookIcon img{
@@ -301,4 +297,18 @@ footer a{
   .banner{
     height: 50vh;
   }
+}
+
+@media (max-device-width: 900px){
+  .banner{
+    height: 60vh;
+  }
+
+}
+
+@media (max-device-width: 500px){
+  .banner{
+    height: 40vh;
+  }
+
 }

@@ -9,7 +9,7 @@ body{
 
 .conteudo{
     padding: 0 150px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .cabecalho{
@@ -17,6 +17,14 @@ body{
   margin-bottom: 100px;
   overflow: hidden;
 }
+
+.banner{
+  z-index: -1;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
 .menu{
   display: flex;
   justify-content: flex-end;
@@ -76,7 +84,7 @@ body{
 }
 
 .textoProduto{
-  background-color: black;
+  /* background-color: black; */
   height: 350px;
   text-align: center;
   font-family: 'Inconsolata', monospace;
@@ -111,7 +119,7 @@ body{
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .vantagens img{
@@ -351,5 +359,19 @@ footer a{
     overflow: scroll;
     margin-bottom: 100px;
   }
+}
+
+@media (max-device-width: 900px){
+  .banner{
+    height: 60vh;
+  }
+
+}
+
+@media (max-device-width: 500px){
+  .banner{
+    height: 40vh;
+  }
+
 }
 

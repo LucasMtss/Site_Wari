@@ -7,6 +7,13 @@ body{
     background-color: black;
 }
 
+.banner{
+  z-index: -1;
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+}
+
 .conteudo{
     padding: 0 150px;
     background-color: black;
@@ -252,6 +259,10 @@ footer a{
   color: #9657d1;
 }
 
+.textoFooter{
+  font-size: 10px;
+}
+
 @media (max-width: 1600px){
 
   .facebookIcon img{
@@ -284,4 +295,10 @@ footer a{
       width: calc(100% - 20px);
   }
 
+}
+
+@media(max-device-width: 1200){
+  .banner{
+    height: 50vh;
+  }
 }

@@ -145,6 +145,27 @@ body{
     width: 700px;
 }
 
+.rotateImage:nth-child(4) img{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform-origin: 70px 300px;
+    width: 650px;
+    height: 500px;
+}
+
+.rotateImage:nth-child(5) img{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform-origin: 95px 260px;
+    width: 700px;
+}
+
 .textoConteudo {
     display: block;
     width: 100vw;
